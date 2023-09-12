@@ -1,0 +1,56 @@
+/* Define a general table style */
+.table-style {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Style for table headers and data cells */
+.table-style th,
+.table-style td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+/* Additional styling for table with id "tab2" */
+#tab2 td {
+    border: 2px solid rgb(175, 179, 61);
+}
+
+/* Define unique border radii for specific cells */
+td#cell1 {
+    border-radius: 4px;
+}
+
+td#cell2 {
+    border-radius: 6px;
+}
+
+td#cell3 {
+    border-radius: 10px;
+}
+
+td#cell4 {
+    border-radius: 6px;
+}
+
+td#cell5 {
+    border-radius: 2px;
+}
+
+td#cell6 {
+    border-radius: 10px;
+}
+
+td#cell7 {
+    border-radius: 50%;
+}
+
+td#cell8 {
+    border-radius: 3px;
+}
+
+td#cell9 {
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 15px;
+}

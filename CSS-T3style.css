@@ -1,0 +1,27 @@
+/* Table styling */
+#stock-data {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#stock-data td, #stock-data th {
+    padding: 12px;
+}
+
+#stock-data tr:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+
+#stock-data tr:hover {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+#stock-data th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: rgb(23, 176, 122);
+    color: white;
+}
